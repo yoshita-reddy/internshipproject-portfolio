@@ -2,7 +2,7 @@ import './style.css';
 import React from "react";
 
 function Home() {
-    let age = new Date().getFullYear() - 2001;
+    let age = new Date().getFullYear() - 2003;
 
     return (
         <div className="d-flex flex-column p-4 pt-0">
@@ -11,11 +11,11 @@ function Home() {
                 <div className="col-6">
                     <p> 
                         <b>First Name:</b>
-                        &nbsp; Nguyen Thanh
+                        &nbsp; Yoshita Reddy
                     </p>
                     <p> 
                         <b>Last Name:</b>
-                        &nbsp; Quan
+                        &nbsp; Vemparala
                     </p>
                     <p> 
                         <b>Age:</b>
@@ -23,22 +23,22 @@ function Home() {
                     </p>
                     <p> 
                         <b>Address:</b>
-                        &nbsp; Cam Ranh city, Khanh Hoa province
+                        &nbsp; Hyderabad city, Telangana
                     </p>              
                 </div>
 
                 <div className="col-6">    
                     <p> 
                         <b>Nationality:</b>
-                        &nbsp; Viet Nam
+                        &nbsp; Indian
                     </p>
                     <p> 
                         <b>Language:</b>
-                        &nbsp; Vietnamese, English
+                        &nbsp; Telugu, English and Hindi
                     </p>
                     <p className='email'> 
                         <b>Email:</b>
-                        &nbsp; quannguyenthanh558@gmail.com
+                        &nbsp; vemparalayoshita@gmail.com
                     </p>
                 </div>
             </div>

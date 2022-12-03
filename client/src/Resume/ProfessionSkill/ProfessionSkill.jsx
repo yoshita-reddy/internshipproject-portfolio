@@ -78,14 +78,7 @@ function ProfessionSkill() {
             <div className="row">
                 <div className='col-6'>
                     <div>
-                        <h1 className="title-skill">Design Skill</h1>
-                        <div className='d-flex flex-wrap'>
-                            {element_desSkill}
-                        </div>
-                    </div>
-
-                    <div>
-                        <h1 className="title-skill">Toolkit</h1>
+                        <h1 className="title-skill">Projects</h1>
                         <div className='d-flex flex-wrap'>
                             {element_toolkit}
                         </div>
@@ -94,7 +87,7 @@ function ProfessionSkill() {
 
                 <div className='col-6'>
                     <div>
-                        <h1 className="title-skill">Development Skill</h1>
+                        <h1 className="title-skill">Technologies</h1>
                         <div className='d-flex flex-wrap'>
                             {element_devSkill}
                         </div>
